@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f1eb;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles - Added */
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+#main-nav {
+    background: transparent;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#main-nav ul li {
+    margin: 0 15px;
+    display: inline-block; /* Added */
+}
+
+#main-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;  /* Fixed typo in transition */
+}
+
+#main-nav ul li a:hover {
+    color: #786888;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Changed from height to min-height */
+    padding: 40px 0; /* Added padding */
+}
+
+.hero h2 { /* Changed from h1 to h2 to match HTML */
+    font-size: 3rem;
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Gallery Styles - Added */
+.gallery {
+    padding: 40px 0;
+}
+
+.gallery .card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.gallery .card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    margin-top: 40px; /* Added */
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#button {
+    background: #a79db0;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: auto; /* Added */
+}
+
+#button:hover { /* Fixed selector */
+    background: #786888;
+}
+
+/* Footer */
+.main-footer {
+    background: #6a6666;
+    color: white;
+    padding: 20px 0; /* Increased padding */
+    margin-top: 40px; /* Added */
+}
+
+.main-footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    gap: 20px; /* Added */
+}
+
+.main-footer .social-links li {
+    margin: 0;
+}
+
+.main-footer .social-links a {
+    color: #a79db0;
+    text-decoration: none; 
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.main-footer .social-links a:hover {
+    color: #979298;
+}
