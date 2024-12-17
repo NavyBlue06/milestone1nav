@@ -11,9 +11,9 @@ body {
 
 /* Navigation */
 #main-nav {
-    background: #333;
+    background:transparent;
     padding: 10px 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -25,6 +25,9 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
+   
+
 }
 
 #main-nav ul li {
@@ -32,15 +35,16 @@ body {
 }
 
 #main-nav ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
-    transition: color 0.3s;
+    transition: color 0.3s , border-bottom 0,3s;
+    
 }
 
 #main-nav ul li a:hover {
-    color: #6a11cb;
+    color: #786888;
 }
 
 /* Hero Section */
@@ -50,7 +54,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 60px; /* Offset for fixed nav */
+    margin-top: 60px;
+    /* Offset for fixed nav */
 }
 
 .hero h1 {
@@ -98,9 +103,9 @@ body {
     border-radius: 5px;
 }
 
-#contact button {
-    background: #6a11cb;
-    color: white;
+#button {
+    background: #a79db0;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -109,17 +114,18 @@ body {
 }
 
 #contact button:hover {
-    background: #2575fc;
+    background: #a79db0;
+    
 }
 
 /* Footer */
-#main-footer {
-    background: #333;
+.main-footer {
+    background: #6a6666;
     color: white;
     padding: 10px 0;
 }
 
-#main-footer .social-links {
+.main-footer .social-links {
     list-style: none;
     padding: 0;
     display: inline-block;
@@ -127,17 +133,17 @@ body {
     text-decoration: none;
 }
 
-#main-footer .social-links li {
+.main-footer .social-links li {
     margin: 0 10px;
 }
 
-#main-footer .social-links a {
-    color: rgb(43, 41, 41);
+.main-footer .social-links a {
+    color: #a79db0;
+    
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
-#main-footer .social-links a:hover {
-    color: #5d595e;
+.main-footer .social-links a:hover {
+    color: #979298;
 }
-
