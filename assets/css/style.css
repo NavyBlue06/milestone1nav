@@ -13,24 +13,24 @@ body {
 header {
     padding: 20px 0;
     text-align: center;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
 }
 
 header h1 {
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
 }
 
 /* Navigation Bar */
 #main-nav {
-    background: #f5f5f5; 
-    padding: 10px 0; 
-    position: sticky; 
+    background: #f5f5f5;
+    padding: 10px 0;
+    position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1000; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #main-nav ul {
@@ -38,39 +38,39 @@ header h1 {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; 
-    gap: 20px; 
+    justify-content: center;
+    gap: 20px;
 }
 
 #main-nav ul li {
-    margin: 0 15px; 
-    display: inline-block; 
+    margin: 0 15px;
+    display: inline-block;
 }
 
 #main-nav ul li a {
-    color: #333; 
-    text-decoration: none; 
-    font-weight: bold; 
-    font-size: 1rem; 
-    transition: color 0.3s; 
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
 }
 
 #main-nav ul li a:hover,
 #main-nav ul li a.active {
-    color: #786888; 
+    color: #786888;
 }
 
 /* Bootstrap-Specific Adjustments */
 .navbar-light .navbar-nav .nav-link {
-    color: #333; 
+    color: #333;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #786888; 
+    color: #786888;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #786888; 
+    color: #786888;
 }
 
 
@@ -103,23 +103,25 @@ header h1 {
 #contact h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    text-align: center; /* Center the section heading */
+    text-align: center;
+    /* Center the section heading */
 }
 
 #contact p {
-    text-align: center; /* Center the paragraph */
+    text-align: center;
+    /* Center the paragraph */
     font-size: 1rem;
     margin-bottom: 20px;
 }
 
 /* Bootstrap Input Alignment */
 #contact form {
-    max-width: 600px; 
-    margin: 0 auto; /* Center the form */
+    max-width: 600px;
+    margin: 0 auto;
     padding: 15px;
-    background: #ffffff; /* Add a white background */
-    border-radius: 8px; /* Smooth corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #contact label {
@@ -131,7 +133,7 @@ header h1 {
 
 #contact input,
 #contact textarea {
-    width: 100%; /* Full-width inputs */
+    width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -158,12 +160,12 @@ header h1 {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: block;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto;
 }
 
 #button:hover {
     background-color: #555;
-    transform: scale(1.05); /* Subtle hover scaling */
+    transform: scale(1.05);
 }
 
 
@@ -183,17 +185,104 @@ header h1 {
     letter-spacing: 1px;
 }
 
+/* About Header Section */
+.about-header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-header h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.about-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar-content {
+    background-color: #f5f5f5;
+    /* Matches header background */
+    padding: 20px;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.sidebar-content h3,
+.sidebar-content h4 {
+    font-size: 1.5rem;
+    /* Matches the header text size */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.sidebar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.sidebar-content ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #666;
+    
+}
+
+.sidebar-content ul li i {
+    margin-right: 8px;
+}
+
+.sidebar-content a.btn-link {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+   
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-content a.btn-link:hover {
+    color: #786888;
+   
+    transform: scale(1.05);
+}
+
+.sidebar-content hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+
+
 /* Footer */
 .main-footer {
-    background: #6a6666; /* Overriding Bootstrap bg-dark */
-    color: white; /* Consistent text color */
+    background: #6a6666;
+    color: white;
     padding: 20px 0;
     margin-top: 40px;
 }
 
 .main-footer p {
-    margin-bottom: 10px; 
-    font-size: 1rem; 
+    margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 .main-footer .social-links {
@@ -210,19 +299,17 @@ header h1 {
 }
 
 .main-footer .social-links a {
-    color: #a79db0; /* Custom link color */
+    color: #a79db0;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
 .main-footer .social-links a:hover {
-    color: #979298; /* Subtle hover effect */
+    color: #979298;
 }
 
 /* Align Bootstrap Icons */
 .main-footer i {
-    margin-right: 5px; /* Add spacing before icon text */
+    margin-right: 5px;
 }
-
-
