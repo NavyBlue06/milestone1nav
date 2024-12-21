@@ -207,6 +207,7 @@ header h1 {
 }
 
 /* Sidebar Styles */
+
 .sidebar {
     text-align: center;
     margin-top: 20px;
@@ -225,7 +226,7 @@ header h1 {
 .sidebar-content h3,
 .sidebar-content h4 {
     font-size: 1.5rem;
-    /* Matches the header text size */
+    
     font-weight: bold;
     margin-bottom: 15px;
     color: #333;
