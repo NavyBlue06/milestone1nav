@@ -155,7 +155,15 @@ Contact
   </div>
 
 
+## Footer
 
+- Positioned at the bottom of each page, focusing on providing contact information and linking to social media platforms.
+- Consists of a centered layout, styled for simplicity and elegance.
+- Includes two main sections:
+  - A copyright notice with the current year and your name.
+  - Social media links with icons for LinkedIn and GitHub.
+- The design is fully responsive, ensuring the footer looks consistent across devices.
+- Styled with Bootstrap classes for a clean and professional appearance.
 
 
 ### Fonts
