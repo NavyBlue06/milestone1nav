@@ -1,9 +1,11 @@
 <div align="center">
-  <img src="assets/images/Pink and Black Modern Initials Logo Design.png" alt="Portfolio Logo" style="background-color: black">
+  <img src="logo.png" alt="Portfolio Logo" style="background-color: black">
 </div>
 
 <div align= "center">
 <img >
+</div>
+
 # Navah Eierdal's Portfolio Website
 
 Visit the deployed site: [Navah Eierdal](https://navyblue06.github.io/milestone1nav/)
