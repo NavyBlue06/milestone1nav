@@ -174,7 +174,7 @@ The following colors are used in the design of this project to create a cohesive
 
   # Website Validation Summary
 
-The HTML for the website have been validated using [W3C Validator](https://validator.w3.org/). Below are the validation results for each page:
+The HTML for the website have been validated using [W3C Validator](https://validator.w3.org/) and the CSS have been validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Below are the validation results for each page:
 
 | Page              | Status  | Validation Image                                  |
 |-------------------|---------|--------------------------------------------------|
@@ -189,8 +189,6 @@ Each page was tested to ensure it complies with web standards, providing a robus
 
 ---
 
-
-   - CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
    
 
 2. **Cross-Browser Testing**:
