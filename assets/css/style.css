@@ -6,74 +6,56 @@ body {
     line-height: 1.6;
     background-color: #f5f1eb;
     color: #333;
-    text-align: center;
 }
 
-/* Header Styles */
+/* Header and Navbar Section */
 header {
-    padding: 20px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #f5f5f5;
-}
-
-header h1 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-
-/* Navigation Bar */
-#main-nav {
-    background: #f5f5f5;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#main-nav ul {
-    list-style: none;
+header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
     margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.navbar {
+    background: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 }
 
-#main-nav ul li {
-    margin: 0 15px;
-    display: inline-block;
+.navbar-toggler {
+    border: none;
 }
 
-#main-nav ul li a {
+.navbar-light .navbar-nav .nav-link {
     color: #333;
-    text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
+    text-decoration: none;
     transition: color 0.3s;
 }
 
-#main-nav ul li a:hover,
-#main-nav ul li a.active {
-    color: #786888;
-}
-
-/* Bootstrap-Specific Adjustments */
-.navbar-light .navbar-nav .nav-link {
-    color: #333;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #786888;
-}
-
+.navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: #786888;
 }
 
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+}
 
 /* Hero Section */
 .hero {
@@ -83,7 +65,6 @@ header h1 {
     align-items: center;
     min-height: 20vh;
     padding: 20px 0;
-    text-transform: uppercase;
     background-color: #f7f7f7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -94,34 +75,33 @@ header h1 {
     font-weight: bold;
 }
 
-
 /* Shared Container Styles */
 .about-me-section,
 .sidebar-content {
     padding: 20px;
-    background-color: #f5f5f5; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Sidebar Styles */
 .sidebar-content {
-    text-align: left; 
-    margin-bottom: 20px; 
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 /* About Me Section Styling */
 .about-me-section {
-    text-align: left; 
-    margin-top: 0; 
-    margin-bottom: 20px; 
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 /* Heading Styles */
 .about-me-heading,
 .sidebar-content h3,
 .sidebar-content h4 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: bold;
     color: #786888;
     margin-bottom: 15px;
@@ -143,19 +123,27 @@ header h1 {
 
 /* Responsive Adjustments */
 @media (max-width: 991.98px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+
     .sidebar-content,
     .about-me-section {
-        text-align: center; 
-        margin-bottom: 20px; 
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .about-me-heading,
     .sidebar-content h3 {
-        font-size: 1.8rem; 
+        font-size: 1.8rem;
     }
 }
-
-
 
 /* Contact Section */
 #contact {
@@ -168,12 +156,10 @@ header h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
-    /* Center the section heading */
 }
 
 #contact p {
     text-align: center;
-    /* Center the paragraph */
     font-size: 1rem;
     margin-bottom: 20px;
 }
@@ -232,7 +218,6 @@ header h1 {
     transform: scale(1.05);
 }
 
-
 /* Gallery Styles */
 .gallery {
     background-color: #f9f7f6;
@@ -248,108 +233,6 @@ header h1 {
     text-align: center;
     letter-spacing: 1px;
 }
-
-/* Header Section */
-.header {
-    padding: 20px 0;
-    text-align: center;
-    background-color: #f5f5f5;
-    color: #333;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-.header p {
-    font-size: 1rem;
-    color: #666;
-    margin-top: 10px;
-}
-
-/* Sidebar Styles */
-
-.sidebar {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.sidebar-content {
-    background-color: #f5f5f5;
-    /* Matches header background */
-    padding: 20px;
-    border-radius: 8px;
-    /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
-}
-
-.sidebar-content h3,
-.sidebar-content h4 {
-    font-size: 1.5rem;
-
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.sidebar-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 15px 0;
-}
-
-.sidebar-content ul li {
-    margin-bottom: 10px;
-    font-size: 1rem;
-    color: #666;
-
-}
-
-.sidebar-content ul li i {
-    margin-right: 8px;
-}
-
-.sidebar-content a.btn-link {
-    display: block;
-    margin: 10px 0;
-    color: #333;
-
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.sidebar-content a.btn-link:hover {
-    color: #786888;
-
-    transform: scale(1.05);
-}
-
-.sidebar-content hr {
-    margin: 20px 0;
-    border: 1px solid #ddd;
-}
-
-/*videos styling */
-.ratio {
-    max-width: 100%;
-    /* Ensures it doesn't exceed the viewport */
-    height: auto;
-    /* Maintains aspect ratio */
-}
-
-video {
-    display: block;
-    /* Fixes inline issues */
-    object-fit: cover;
-    /* Ensures the video fills the container */
-}
-
 
 /* Footer */
 .main-footer {
@@ -392,3 +275,4 @@ video {
 .main-footer i {
     margin-right: 5px;
 }
+
