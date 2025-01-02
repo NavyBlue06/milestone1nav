@@ -17,12 +17,10 @@
 <body>
 
     <!--Header Section -->
-    <header class="header text-center py-5">
+    <header class="header text-center">
         <h1>Navah Eierdal</h1>
-
         <p class="hero"><em>My mission is to empower businesses with innovative strategies and cutting-edge technology,
-                ensuring they
-                thrive in a dynamic market.</em></p>
+                ensuring they thrive in a dynamic market.</em></p>
     </header>
     <!--Navigation bar-->
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,85 +39,82 @@
     </nav>
     <main>
 
-        <section class="hero">
+        <section class="hero" style="background-image:url(assets/images/hero-background.jpg);">
             <h2>Welcome to My World</h2>
             <p> Join me for a journey of innovation, creativity, and technology.</p>
         </section>
-
-
-
     </main>
     <!-- Main Content -->
     <div class="container my-5">
         <div class="row">
-            <!-- About Me Section -->
-            <div class="col-lg-8">
-                <h2 class="mb-4">Welcome!</h2>
-                <p>
-                    My name is Navah Eierdal, and I am a passionate, curious, and dedicated professional with a diverse
-                    background in business administration and software development. With a Master of Science in Business
-                    Administration and experience spanning supply chain coordination, external relations, and content
-                    creation, I thrive at the intersection of creativity and structure.
-                </p>
-                <p>
-                    I am currently transitioning into the world of software development, combining my analytical skills
-                    and business acumen with a growing proficiency in HTML, CSS, Bootstrap, and Python. Outside of work,
-                    I
-                    enjoy baking, exploring cultural cuisines, and experimenting with creative projects. My goal is to
-                    bring innovation and a personal touch to everything I do.
-                </p>
-            </div>
-        </div>
-        <!-- Sidebar -->
-        <aside class="sidebar col-lg-4">
-            <div class="sidebar-content">
-                <h3>Quick Facts</h3>
-                <ul>
-                    <li><i class="bi bi-geo-alt-fill text-primary"></i> Based in Sweden</li>
-                    <li><i class="bi bi-laptop-fill text-success"></i> Software Developer in Training</li>
-                    <li><i class="bi bi-cup-fill text-danger"></i> Loves Coffee and Baking</li>
-                </ul>
-                <hr>
-                <h4>Connect with Me</h4>
-                <a href="https://www.linkedin.com/in/navah-eierdal" target="_blank" class="btn-link">
-                    <i class="bi bi-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://github.com/NavyBlue06" target="_blank" class="btn-link">
-                    <i class="bi bi-github"></i> GitHub
-                </a>
-            </div>
-        </aside>
-
-
-        <hr class="my-5">
-
-        <!-- Carousel Section -->
-        <div>
-            <h3 class="text-center mb-4">Photo Gallery</h3>
-            <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img src="assets/images/SMIO-20230429-032.jpg" class="d-block w-100" alt="Photo of Navah 1">
-                    </div>
-                    <div class="carousel-item active">
-                        <img src="assets/images/SMIO-20230429-076.jpg" class="d-block w-100" alt="Photo of Navah 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/SMIO-20230429-013.jpg" class="d-block w-100" alt="Photo of Navah 3">
-                    </div>
+            <!-- Sidebar -->
+            <aside class="sidebar col-lg-4 col-md-12 mb-4">
+                <div class="sidebar-content">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li><i class="bi bi-geo-alt-fill text-primary"></i> Based in Sweden</li>
+                        <li><i class="bi bi-laptop-fill text-success"></i> Software Developer in Training</li>
+                        <li><i class="bi bi-cup-fill text-danger"></i> Loves Coffee and Baking</li>
+                    </ul>
+                    <hr>
+                    <h4>Connect with Me</h4>
+                    <a href="https://www.linkedin.com/in/navah-eierdal" target="_blank" class="btn-link">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/NavyBlue06" target="_blank" class="btn-link">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </aside>
+    
+            <!-- About Me Section -->
+            <div class="about-me-section col-lg-8 col-md-12">
+                <h2 class="about-me-heading text-highlight mb-4">About Me</h2>
+                <p class="about-me-intro">
+                    Hello! I'm <strong>Navah Eierdal</strong>—a dynamic and forward-thinking professional with a rich blend of 
+                    expertise in business administration and software development.
+                </p>
+                <p class="about-me-description">
+                    My journey has been one of continuous growth and adaptability. I am passionate about leveraging technology to 
+                    solve real-world challenges, blending a sharp analytical mindset with creative problem-solving skills.
+                </p>
+                <p class="about-me-description">
+                    Currently, I'm honing my skills in <span class="text-emphasis">HTML, CSS, Bootstrap</span>, and <span class="text-emphasis">Python</span>, 
+                    driven by a vision to build impactful, user-centric solutions. I thrive at the intersection of business and 
+                    technology, where I can make a meaningful difference.
+                </p>
             </div>
         </div>
+    </div>
+    
+
+    <hr class="my-5">
+
+    <!-- Carousel Section -->
+    <div>
+        <h3 class="text-center mb-4">Photo Gallery</h3>
+        <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="assets/images/SMIO-20230429-032.jpg" class="d-block w-100" alt="Photo of Navah 1">
+                </div>
+                <div class="carousel-item active">
+                    <img src="assets/images/SMIO-20230429-076.jpg" class="d-block w-100" alt="Photo of Navah 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/SMIO-20230429-013.jpg" class="d-block w-100" alt="Photo of Navah 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
     </div>
 
     <hr>
