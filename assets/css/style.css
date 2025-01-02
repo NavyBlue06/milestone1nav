@@ -199,6 +199,29 @@ header p {
 }
 
 /* Bootstrap Input Alignment */
+/*image*/
+.container-fluid {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratio {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ratio img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    max-height: 400px;
+    object-fit: contain;
+}
+
 #contact form {
     max-width: 600px;
     margin: 0 auto;
