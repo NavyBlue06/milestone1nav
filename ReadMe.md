@@ -269,9 +269,64 @@ Each page was tested to ensure it complies with web standards, providing a robus
 
 ---
 
-## Deployment
 
-### Local Deployment
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/portfolio-website.git
+# Deployment
+
+## Local Deployment
+
+### Local Preparation
+
+**Requirements:**
+- An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
+- [Git](https://git-scm.com/)
+- A web browser for testing the project
+- Basic knowledge of HTML, CSS, and JavaScript
+
+### Local Instructions
+
+1. Download the project repository [here](https://github.com/NavyBlue06/milestone1nav/archive/main.zip) and extract the zip file to your desired location. Alternatively, clone the repository using:
+   ```
+   git clone https://github.com/NavyBlue06/milestone1nav.git
+   ```
+2. Launch your IDE and open the base directory of the extracted or cloned repository.
+3. To view the project locally, open the `index.html` file in a web browser. Alternatively, if Python is installed, you can serve the project locally by running:
+   ```
+   python3 -m http.server
+   ```
+   Then, visit `http://localhost:8000` in your browser.
+4. Modify the files as needed to customize or enhance the project.
+
+---
+
+## GitHub Deployment
+
+### GitHub Preparation
+
+**Requirements:**
+- A free GitHub account
+
+### GitHub Instructions
+
+1. Sign in to your GitHub account and go to your repository: [https://github.com/NavyBlue06/milestone1nav](https://github.com/NavyBlue06/milestone1nav).
+2. Ensure all updates are committed and pushed to the main branch.
+3. Open the **Settings** page of the repository.
+4. Scroll down to the **Pages** section under "Code and automation."
+5. Under "Source," choose the branch to deploy (e.g., `main`) and select the `/root` folder.
+6. Click **Save** and allow a few moments for GitHub Pages to publish the site.
+7. Once completed, the site will be accessible at: `https://navyblue06.github.io/milestone1nav/`.
+
+---
+## Credits and Contact
+
+### Content
+Nearly all text content for this project was generated or refined using OpenAI's ChatGPT-4, partially enhancing the performance of the webpage in Lighthouse testing. The AI was also instrumental in correcting and generating high-quality textual content to ensure clarity and professionalism.
+
+Any external code utilized from online sources is documented and credited within the code itself.
+
+All other media used is my own.
+
+### Contact
+If you have any questions or feedback, feel free to contact me at `navaheierdal92@outlook.com`.
+
+
+
