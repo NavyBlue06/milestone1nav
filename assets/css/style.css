@@ -81,8 +81,8 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
-    padding: 40px 0;
+    min-height: 20vh;
+    padding: 20px 0;
     text-transform: uppercase;
     background-color: #f7f7f7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
