@@ -2,6 +2,8 @@
   <img src="assets/images/Pink and Black Modern Initials Logo Design.png" alt="Portfolio Logo" style="background-color: black">
 </div>
 
+<div align= "center">
+<img >
 # Navah Eierdal's Portfolio Website
 
 Visit the deployed site: [Navah Eierdal](https://navyblue06.github.io/milestone1nav/)
@@ -100,7 +102,7 @@ This is a personal portfolio website built to showcase my professional journey, 
 ## Visual Design
 
 ### Wireframes
-- The wireframes for this project were created using [canva](https://www.canva.com). They include desktop, tablet, and mobile versions of the website to ensure responsiveness.
+- The wireframes for this project were created using [balsamiq](https://www.balsamiq.com). They include desktop, tablet, and mobile versions of the website to ensure responsiveness.
 - Screenshots of the wireframes can be found in the `wireframes/` directory in the project repository.
 
 ### Fonts
@@ -109,7 +111,7 @@ This is a personal portfolio website built to showcase my professional journey, 
 - The font choices aim to convey professionalism and a clean aesthetic.
 
 ### Icons
-- Icons are implemented using **Bootstrap Icons**. They include:
+- Icons are implemented using **Bootstrap Icons**. They include for example:
   - LinkedIn Icon: `<i class="bi bi-linkedin"></i>`
   - GitHub Icon: `<i class="bi bi-github"></i>`
 - The icons enhance navigation and visual clarity by highlighting key links.
@@ -152,6 +154,7 @@ The following colors are used in the design of this project to create a cohesive
 ### Images
 - All images used are stored in the `assets/images/` directory.
 - High-quality and royalty-free images were sourced from Pexels for the portfolio section.
+- My own pictures are also included.
 - Images are optimized for web use to ensure fast loading times.
 
 ### Styling
@@ -168,11 +171,27 @@ The following colors are used in the design of this project to create a cohesive
 
 ### Methods
 1. **Validation**:
-   - HTML validated using [W3C Validator](https://validator.w3.org/).
+
+  # Website Validation Summary
+
+The HTML for the website have been validated using [W3C Validator](https://validator.w3.org/). Below are the validation results for each page:
+
+| Page              | Status  | Validation Image                                  |
+|-------------------|---------|--------------------------------------------------|
+| [index.html](/index.html)             | Passed  | ![View](documentation/doc-image/w3-index.png)    |
+| [portfolio.html](/portfolio.html)     | Passed  | ![View](documentation/doc-image/w3-index.png)    |
+| [contact.html](/contact.html)         | Passed  | ![View](documentation/doc-image/w3-contact.png)  |
+| [404.html](/404.html)                 | Passed  | ![View](documentation/doc-image/w3-404.png)      |
+| [thank-you.html](/thank-you.html)     | Passed  | ![View](documentation/doc-image/w3-ty.png)       |
+| [style.css](/style.css)               | Passed  | ![View](documentation/doc-image/w3-css.png)      |
+
+Each page was tested to ensure it complies with web standards, providing a robust and accessible user experience. 
+
+---
+
+
    - CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-   <div align="center">
-   <img src="assets/images/Screenshot 2025-01-02 at 12.34.53.png" alt=" CSS Validator Test Screenshot> 
-   </div>
+   
 
 2. **Cross-Browser Testing**:
    - Tested on Chrome, Firefox, and Safari.
