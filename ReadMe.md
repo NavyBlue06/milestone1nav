@@ -166,6 +166,10 @@ The following colors are used in the design of this project to create a cohesive
 1. **Validation**:
    - HTML validated using [W3C Validator](https://validator.w3.org/).
    - CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+   <div align="center">
+   <img src="assets/images/Screenshot 2025-01-02 at 12.34.53.png" alt=" CSS Validator Test Screenshot> 
+   </div>
+
 2. **Cross-Browser Testing**:
    - Tested on Chrome, Firefox, and Safari.
 3. **Device Responsiveness**:
