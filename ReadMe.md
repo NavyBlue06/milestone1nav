@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="Portfolio Logo" style="background-color: black">
+  <img src="assets/images/logo.png" alt="Portfolio Logo" style="background-color: black">
 </div>
 
 <div align= "center">
@@ -85,11 +85,24 @@ This is a personal portfolio website built to showcase my professional journey, 
 
 ### Interactive Features
 - **Navigation Bar**:
-  - Fixed and responsive for easy access to all sections.
+  - Fixed and responsive for easy access to all sections. I chose to have a simple navbar to avoid confusion for the user. 
+  <div align="center">
+  <img src="documentation/doc-image/navbar.png" alt="navbar screenshot">
+  </div>
+
 - **Carousel**:
   - Interactive image slider for showcasing achievements.
+  <div align="center">
+  <img src="documentation/doc-image/caroussel.png" alt="caroussel slide-show screenshot">
+  </div>
+  - The carousel contains 3 personal images with an automatic slide-show. 
+
 - **Form Validation**:
   - Validates inputs in the contact form.
+
+  <div align="center">
+  <img src="documentation/doc-image/form-screenshot.png" alt="form screenshot">
+  </div>
 
 ---
 
@@ -105,7 +118,45 @@ This is a personal portfolio website built to showcase my professional journey, 
 
 ### Wireframes
 - The wireframes for this project were created using [balsamiq](https://www.balsamiq.com). They include desktop, tablet, and mobile versions of the website to ensure responsiveness.
-- Screenshots of the wireframes can be found in the `wireframes/` directory in the project repository.
+- Screenshots of the wireframes: 
+
+Desktop:
+
+ Index
+<div align="center">
+  <img src="documentation/wireframes/Home_Wireframe.png" alt="index">
+  </div>
+ 
+  --
+  Portfolio
+  <div align="center">
+  <img src="documentation/wireframes/Portfolio_Wireframe.png" alt="portfolio">
+  </div>
+  --
+  Contact
+  <div align="center">
+  <img src="documentation/wireframes/Desktop_Contact_Wireframe.png" alt="contact">
+  </div>
+--
+Mobile device:
+Index
+<div align="center">
+  <img src="documentation/wireframes/Mobile_Home-Wireframe.png" alt="Home on mobile">
+  </div> 
+--
+Portfolio
+<div align="center">
+  <img src="documentation/wireframes/Mobile_Portfolio_Wireframe.png" alt="Portfolio on mobile">
+  </div>
+--
+Contact
+<div align="center">
+  <img src="documentation/wireframes/Mobile_Contact_Wireframe.png" alt="Contact on mobile">
+  </div>
+
+
+
+
 
 ### Fonts
 - **Primary Font**: Georgia (serif) – for body text to ensure a professional and readable design.
@@ -180,28 +231,26 @@ The HTML for the website have been validated using [W3C Validator](https://valid
 
 | Page              | Status  | Validation Image                                  |
 |-------------------|---------|--------------------------------------------------|
-| [index.html](/index.html)             | Passed  | ![View](documentation/doc-image/w3-index.png)    |
-| [portfolio.html](/portfolio.html)     | Passed  | ![View](documentation/doc-image/w3-index.png)    |
-| [contact.html](/contact.html)         | Passed  | ![View](documentation/doc-image/w3-contact.png)  |
-| [404.html](/404.html)                 | Passed  | ![View](documentation/doc-image/w3-404.png)      |
-| [thank-you.html](/thank-you.html)     | Passed  | ![View](documentation/doc-image/w3-ty.png)       |
-| [style.css](/style.css)               | Passed  | ![View](documentation/doc-image/w3-css.png)      |
+| [index.html](/index.html)             | Passed  | ![View](documentation/doc-image/index.png)    |
+| [portfolio.html](/portfolio.html)     | Passed  | ![View](documentation/doc-image/portfolio.png)    |
+| [contact.html](/contact.html)         | Passed  | ![View](documentation/doc-image/contact.png)  |
+| [404.html](/404.html)                 | Passed  | ![View](documentation/doc-image/404.png)      |
+| [thanku.html](/thank-you.html)     | Passed  | ![View](documentation/doc-image/thanku.png)       |
+| [style.css](/style.css)               | Passed  | ![View](documentation/doc-image/css-validation.png)      |
 
 Each page was tested to ensure it complies with web standards, providing a robust and accessible user experience. 
 
 ---
 
-   
-
 2. **Cross-Browser Testing**:
-   - Tested on Chrome, Firefox, and Safari.
+   - Tested on Chrome, Edge, and Safari.
 3. **Device Responsiveness**:
    - Verified on desktop, tablet, and mobile devices.
 
 ### Bugs
 - **Fixed**:
   - Alignment issues in the navigation bar on mobile devices.
-  - Video autoplay not functioning in Safari; resolved with proper attributes.
+  
 - **Known**:
   - None reported as of now.
 
