@@ -22,6 +22,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
+
 /* Navigation Bar */
 #main-nav {
     background: #f5f5f5;
@@ -92,6 +93,69 @@ header h1 {
     margin: 10px 0;
     font-weight: bold;
 }
+
+
+/* Shared Container Styles */
+.about-me-section,
+.sidebar-content {
+    padding: 20px;
+    background-color: #f5f5f5; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Sidebar Styles */
+.sidebar-content {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+/* About Me Section Styling */
+.about-me-section {
+    text-align: left; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+
+/* Heading Styles */
+.about-me-heading,
+.sidebar-content h3,
+.sidebar-content h4 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #786888;
+    margin-bottom: 15px;
+}
+
+/* Text Styles for About Me */
+.about-me-intro,
+.about-me-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-emphasis {
+    color: #786888;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+    .sidebar-content,
+    .about-me-section {
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .about-me-heading,
+    .sidebar-content h3 {
+        font-size: 1.8rem; 
+    }
+}
+
+
 
 /* Contact Section */
 #contact {
@@ -226,7 +290,7 @@ header h1 {
 .sidebar-content h3,
 .sidebar-content h4 {
     font-size: 1.5rem;
-    
+
     font-weight: bold;
     margin-bottom: 15px;
     color: #333;
@@ -242,7 +306,7 @@ header h1 {
     margin-bottom: 10px;
     font-size: 1rem;
     color: #666;
-    
+
 }
 
 .sidebar-content ul li i {
@@ -253,7 +317,7 @@ header h1 {
     display: block;
     margin: 10px 0;
     color: #333;
-   
+
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -262,7 +326,7 @@ header h1 {
 
 .sidebar-content a.btn-link:hover {
     color: #786888;
-   
+
     transform: scale(1.05);
 }
 
@@ -273,13 +337,17 @@ header h1 {
 
 /*videos styling */
 .ratio {
-    max-width: 100%; /* Ensures it doesn't exceed the viewport */
-    height: auto;    /* Maintains aspect ratio */
+    max-width: 100%;
+    /* Ensures it doesn't exceed the viewport */
+    height: auto;
+    /* Maintains aspect ratio */
 }
 
 video {
-    display: block;   /* Fixes inline issues */
-    object-fit: cover; /* Ensures the video fills the container */
+    display: block;
+    /* Fixes inline issues */
+    object-fit: cover;
+    /* Ensures the video fills the container */
 }
 
 
