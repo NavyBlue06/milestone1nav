@@ -103,7 +103,8 @@ This is a personal portfolio website built to showcase my professional journey, 
   <div align="center">
   <img src="documentation/doc-image/form-screenshot.png" alt="form screenshot">
   </div>
-
+- **Lighthouse**:
+Scored 100 on different
 ---
 
 ## Technologies Used
@@ -156,6 +157,10 @@ Contact
 
 
 ## Footer
+
+<div align="center">
+  <img src="documentation/doc-image/footer.png" alt="Footer screenshot">
+  </div>
 
 - Positioned at the bottom of each page, focusing on providing contact information and linking to social media platforms.
 - Consists of a centered layout, styled for simplicity and elegance.
