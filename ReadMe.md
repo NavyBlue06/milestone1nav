@@ -1,10 +1,14 @@
 <div align="center">
-  <img src="assets/images/portfolio-logo.png" alt="Portfolio Logo" style="background-color: black">
+  <img src="assets/images/Pink and Black Modern Initials Logo Design.png" alt="Portfolio Logo" style="background-color: black">
 </div>
 
 # Navah Eierdal's Portfolio Website
 
+Visit the deployed site: [Navah Eierdal](https://navyblue06.github.io/milestone1nav/)
+
 This is a personal portfolio website built to showcase my professional journey, skills, projects, and contact information. It aims to provide recruiters and collaborators with a clear and visually appealing overview of my capabilities and achievements.
+
+
 
 ---
 
@@ -96,7 +100,7 @@ This is a personal portfolio website built to showcase my professional journey, 
 ## Visual Design
 
 ### Wireframes
-- The wireframes for this project were created using [Figma](https://www.figma.com/). They include desktop, tablet, and mobile versions of the website to ensure responsiveness.
+- The wireframes for this project were created using [canva](https://www.canva.com). They include desktop, tablet, and mobile versions of the website to ensure responsiveness.
 - Screenshots of the wireframes can be found in the `wireframes/` directory in the project repository.
 
 ### Fonts
