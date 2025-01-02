@@ -89,6 +89,43 @@ header p {
     text-align: left;
     margin-bottom: 20px;
 }
+.sidebar-content i {
+    font-size: 1.5rem;
+    color: #786888;
+    margin-right: 8px;
+}
+.sidebar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-content li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-content i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Sidebar link*/
+.link {
+    color: #786888; 
+    font-size: 1rem; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+    display: inline-flex; 
+    align-items: center; 
+}
+
+.link:hover {
+    color: #333; 
+    transform: scale(1.05); 
+}
+
 
 /* About Me Section Styling */
 .about-me-section {
