@@ -259,6 +259,55 @@ Each page was tested to ensure it complies with web standards, providing a robus
    - Tested on Chrome, Edge, and Safari.
 3. **Device Responsiveness**:
    - Verified on desktop, tablet, and mobile devices.
+   - verified on iphone 16, Samsung Galaxy Z flip 6, Ipad, and desktop macBook air. 
+
+## Lighthouse Testing Results
+
+Below are the Lighthouse testing results for the three different pages of the website:
+
+---
+
+### Home Page
+![Home Page Lighthouse Results](./documentation/doc-image/index-screenshot.png)
+
+The **Home Page** of the website achieved the following scores:
+- **Performance**: 81
+- **Accessibility**: 100
+- **Best Practices**: 78
+- **SEO**: 100
+
+The page excelled in accessibility and SEO but showed room for improvement in performance and best practices. A note indicates that Chrome extensions may have impacted the load performance. The page, titled "Navah Eierdal - Welcome to My World," introduces the site with quick facts and navigation links.
+
+---
+
+### Portfolio Page
+![Portfolio Page Lighthouse Results](./documentation/doc-image/portfolio-screenshot.png)
+
+The **Portfolio Page** scored:
+- **Performance**: 50
+- **Accessibility**: 98
+- **Best Practices**: 81
+- **SEO**: 91
+
+This page had a lower performance score compared to others, but accessibility, SEO, and best practices performed well. Chrome extensions may have affected the performance. The page highlights projects under "My Work," featuring items such as an E-Commerce Platform and a Portfolio Website.
+
+---
+
+### Contact Page
+![Contact Page Lighthouse Results](./documentation/doc-image/contact-screenshot.png)
+
+The **Contact Page** achieved the following scores:
+- **Performance**: 73
+- **Accessibility**: 100
+- **Best Practices**: 81
+- **SEO**: 91
+
+The contact page had perfect accessibility, with moderate performance and minor improvements needed for SEO and best practices. The page includes a simple and elegant design titled "Contact Me," with the initials "NE" and a prompt to connect.
+
+---
+
+> **Note**: All results mention that Chrome extensions might have affected load performance. Running the audit in incognito mode or with extensions disabled is recommended for more accurate results.
+
 
 ### Bugs
 - **Fixed**:
